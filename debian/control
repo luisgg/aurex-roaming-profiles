@@ -1,0 +1,15 @@
+Source: aurex-roaming-profiles
+Section: admin
+Priority: optional
+Maintainer: Luis Antonio Garcia Gisbert <luisgg@gmail.com>
+Build-Depends: debhelper (>= 7.0)
+Standards-Version: 3.9.3
+
+Package: aurex-roaming-profiles
+Architecture: all
+Depends: ${misc:Depends}, libpam-script
+Description: aurex roaming profile support
+ The package uses pam-scripts to save and restore user
+ settings in a network share.
+ The files and directories to include in the profile
+ are configurable at system and user level.
